@@ -1,5 +1,219 @@
-section.service {
-    width:100%;
-    height:500px;
-    background-color:coral ;
+@media(max-width:576px){
+    section.service {
+        width:100%;
+        height:auto;
+        background-color:var(--bg-color) ;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    section.service>section.photo{
+        width:100%;
+        height:inherit;
+
+    }
+    section.service>section.photo>img{
+        width:100%;
+        height:inherit;
+        object-fit:cover;
+    }
+    section.service>section.list{
+        width:100%;
+        height:500px;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    section.service>section.list>section.number{
+        width:10%;
+        height:500px;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-end;
+    }
+    section.service>section.list>section.number>div{
+        width:50px;
+        height:50px;
+        background-color:white ;
+        border-radius: 50%;
+        text-align:center;
+        line-height:50px;
+        font-family: main;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    section.service>section.list>section.description{
+        width:70%;
+        height:500px;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-left: 20px;
+
+    }
+    section.service>section.list>section.description>div{
+        width:100%;
+        height:50px;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        font-family: main;
+    }
+    section.service>section.list>section.description h1{
+        font-size:20px;
+    }
+    section.service>section.list>section.description p{
+        font-size:14px;
+    }
+}
+@media(min-width:576px){
+    section.service {
+        width:100%;
+        height:auto;
+        background-color:var(--bg-color) ;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    section.service>section.photo{
+        width:100%;
+        height:inherit;
+
+    }
+    section.service>section.photo>img{
+        width:100%;
+        height:inherit;
+        object-fit:cover;
+    }
+    section.service>section.list{
+        width:100%;
+        height:auto;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    section.service>section.list>section.number{
+        width:10%;
+        height:500px;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-end;
+    }
+    section.service>section.list>section.number>div{
+        width:50px;
+        height:50px;
+        background-color:white ;
+        border-radius: 50%;
+        text-align:center;
+        line-height:50px;
+        font-family: main;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    section.service>section.list>section.description{
+        width:60%;
+        height:500px;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-left: 20px;
+
+    }
+    section.service>section.list>section.description>div{
+        width:100%;
+        height:50px;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        font-family: main;
+    }
+    section.service>section.list>section.description h1{
+        font-size:20px;
+    }
+    section.service>section.list>section.description p{
+        font-size:14px;
+    }
+}
+@media (min-width: 768px){
+    section.service {
+        width:100%;
+        height:500px;
+        background-color:var(--bg-color) ;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    section.service>section.photo{
+        width:40%;
+        height:inherit;
+
+    }
+    section.service>section.photo>img{
+        width:100%;
+        height:inherit;
+        object-fit:cover;
+    }
+    section.service>section.list{
+        width:60%;
+        height:inherit;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    section.service>section.list>section.number{
+        width:20%;
+        height:inherit;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-end;
+    }
+    section.service>section.list>section.number>div{
+        width:70px;
+        height:70px;
+        background-color:white ;
+        border-radius: 50%;
+        text-align:center;
+        line-height:70px;
+        font-family: main;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    section.service>section.list>section.description{
+        width:60%;
+        height:inherit;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-left: 20px;
+
+    }
+    section.service>section.list>section.description>div{
+        width:100%;
+        height:50px;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        font-family: main;
+    }
+    section.service>section.list>section.description h1{
+        font-size:20px;
+    }
+    section.service>section.list>section.description p{
+        font-size:14px;
+    }
 }

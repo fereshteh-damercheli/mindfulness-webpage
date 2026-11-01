@@ -38,6 +38,7 @@
 
     section.home > section.welcome > h1 {
         font-family: main, serif;
+        letter-spacing: 3px;
         /*margin-bottom: 20px;*/
     }
 
@@ -88,6 +89,8 @@
     section.home > section.welcome > h1 {
         font-family: main, serif;
         /*margin-bottom: 20px;*/
+        letter-spacing: 3px;
+
     }
 
     section.home > section.welcome > p {
